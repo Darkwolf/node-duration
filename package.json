@@ -1,0 +1,37 @@
+{
+  "name": "@darkwolf/duration",
+  "version": "1.0.0",
+  "description": "Duration",
+  "type": "module",
+  "main": "./lib/index.cjs",
+  "exports": {
+    "import": "./lib/index.mjs",
+    "require": "./lib/index.cjs"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkwolf/node-duration.git"
+  },
+  "keywords": [
+    "duration",
+    "time",
+    "parser",
+    "converter",
+    "formatter"
+  ],
+  "author": "Pavel Wolf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Darkwolf/node-duration/issues"
+  },
+  "homepage": "https://github.com/Darkwolf/node-duration#readme",
+  "dependencies": {
+    "@darkwolf/primordials": "^1.2.1"
+  }
+}
