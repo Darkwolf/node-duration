@@ -1,6 +1,6 @@
 {
   "name": "@darkwolf/duration",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Duration",
   "type": "module",
   "main": "./lib/index.cjs",
